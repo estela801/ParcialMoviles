@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "291913341459",
+    "project_id": "thesalon-e882a",
+    "storage_bucket": "thesalon-e882a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291913341459:android:ad773c80536b9acd087de6",
+        "android_client_info": {
+          "package_name": "com.example.thesalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJzvD3MECXR5UTJn_Vz3E_h_8a8xdamuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291913341459:android:06d278b2e85eece9087de6",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.thesalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJzvD3MECXR5UTJn_Vz3E_h_8a8xdamuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
