@@ -14,34 +14,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDJzvD3MECXR5UTJn_Vz3E_h_8a8xdamuM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:291913341459:android:06d278b2e85eece9087de6",
-        "android_client_info": {
-          "package_name": "sv.edu.udb.thesalon"
-        }
-      },
-      "oauth_client": [
+          "client_id": "291913341459-e1vs3obmeifc4bndjimi95unmpa60r0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thesalon",
+            "certificate_hash": "d1bf7b64c79233fa2b0fecb50e37e2edce67080f"
+          }
+        },
         {
           "client_id": "291913341459-ukt2sbqdq0h55hbj9272dj26lgu8f8dd.apps.googleusercontent.com",
           "client_type": 3
