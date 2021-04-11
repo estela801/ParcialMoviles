@@ -27,9 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ff24af-7741-4ead-bc8c-61245beaaf84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="40ff24af-7741-4ead-bc8c-61245beaaf84" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +95,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EXAMEN/ParcialMoviles/TheSalon" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-941180868">
@@ -223,6 +221,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="467" y="118" key="FileChooserDialogImpl" timestamp="1618181212713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618181212713" />
     <state width="1305" height="176" key="GridCell.Tab.0.bottom" timestamp="1618037482911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

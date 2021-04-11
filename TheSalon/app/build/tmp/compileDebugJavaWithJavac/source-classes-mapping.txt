@@ -1,5 +1,3 @@
-com/example/thesalon/BuildConfig.java
- com.example.thesalon.BuildConfig
 com/example/thesalon/MainActivity.java
  com.example.thesalon.MainActivity
  com.example.thesalon.MainActivity$1
@@ -19,3 +17,5 @@ com/example/thesalon/mainMenu.java
  com.example.thesalon.mainMenu
 com/example/thesalon/catalogue.java
  com.example.thesalon.catalogue
+com/example/thesalon/BuildConfig.java
+ com.example.thesalon.BuildConfig
