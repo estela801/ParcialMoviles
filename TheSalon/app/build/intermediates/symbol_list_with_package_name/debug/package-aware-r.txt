@@ -1768,6 +1768,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ListaCitas
 id META
 id NO_DEBUG
 id SHIFT
@@ -1863,6 +1864,7 @@ id btnReports
 id btnSelectDate
 id btnSelectTime
 id btncatalogue
+id btncita
 id btnlogin
 id buttonPanel
 id cache_measures
@@ -2190,6 +2192,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvFecha
+id tvHora
+id tvObservaciones
+id tvServicio
 id txtDateSelected
 id txtObservation
 id txtvAppName
@@ -2278,6 +2284,7 @@ layout activity_last_services
 layout activity_login
 layout activity_main
 layout activity_main_menu
+layout activity_prog_citas
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

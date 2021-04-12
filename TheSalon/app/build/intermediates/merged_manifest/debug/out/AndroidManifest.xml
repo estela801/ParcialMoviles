@@ -22,6 +22,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TheSalon" >
+        <activity android:name="com.example.thesalon.ProgCitas" />
         <activity android:name="com.example.thesalon.addDate1" />
         <activity android:name="com.example.thesalon.lastServices" />
         <activity android:name="com.example.thesalon.catalogue" />
@@ -87,6 +88,9 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <!--
                 This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
