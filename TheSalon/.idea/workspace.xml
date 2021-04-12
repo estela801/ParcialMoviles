@@ -29,7 +29,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40ff24af-7741-4ead-bc8c-61245beaaf84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/thesalon/addDate1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/thesalon/addDate1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_date1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_date1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

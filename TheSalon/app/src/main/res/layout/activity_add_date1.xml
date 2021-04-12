@@ -287,15 +287,16 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btncita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:backgroundTint="@color/titles"
+            android:fontFamily="@font/arvo"
+            android:onClick="guardar"
             android:text="@string/apartAddDate"
             android:textColor="@color/white"
-            android:fontFamily="@font/arvo"
-            android:backgroundTint="@color/titles"
-            app:cornerRadius="10dp"
-            />
+            app:cornerRadius="10dp" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
