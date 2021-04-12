@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 
 import com.google.android.material.datepicker.MaterialDatePicker;
@@ -24,7 +26,12 @@ import java.util.Calendar;
 public class addDate1 extends AppCompatActivity {
 
     EditText edtServicio, edtObservacion;
-    String key="", servicio="Prueba", fecha="",hora="", observacion="";
+    String key="";
+
+    private RadioGroup radiogroup;
+    private RadioButton radiobutton;
+
+
 
     private Button mPickDateButton, mPickTimeButton;
     private TextView mShowSelectedDateText, mShowSelectedTimeText;
@@ -34,11 +41,19 @@ public class addDate1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_date1);
 
+        radiogroup = (RadioGroup) findViewById(R.id.radio);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+        radiobutton = (RadioButton) findViewById(selectedId);
+
+
+
         edtObservacion = findViewById(R.id.txtObservation);
         mPickDateButton = findViewById(R.id.btnSelectDate);
         mShowSelectedDateText = findViewById(R.id.txtDateSelected);
         mPickTimeButton = findViewById(R.id.btnSelectTime);
         mShowSelectedTimeText = findViewById(R.id.txtvSelectedTime);
+
+
 
         MaterialDatePicker.Builder materialDateBuilder = MaterialDatePicker.Builder.datePicker();
         materialDateBuilder.setTitleText("Selecciona una fecha");
@@ -72,7 +87,7 @@ public class addDate1 extends AppCompatActivity {
 
     public void guardar(View v) {
         String observacion = edtObservacion.getText().toString();
-        String servicio = edtServicio.getText().toString();
+        String servicio = radiobutton.getText().toString();
         String fecha = mShowSelectedDateText.getText().toString();
         String hora = mShowSelectedTimeText.getText().toString();
         // Se forma objeto persona
@@ -102,4 +117,6 @@ public class addDate1 extends AppCompatActivity {
 
         new TimePickerDialog(addDate1.this,timeSetListener,calendar.get(Calendar.HOUR_OF_DAY),calendar.get(Calendar.MINUTE),false).show();
     }
+
+
 }
