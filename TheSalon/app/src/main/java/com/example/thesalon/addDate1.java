@@ -10,14 +10,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.EditText;
+
 
 import com.google.android.material.datepicker.MaterialDatePicker;
 import com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClickListener;
+
+import com.example.thesalon.datos.Cita;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class addDate1 extends AppCompatActivity {
+
+    EditText edtServicio, edtObservacion;
+    String key="", servicio="Prueba", fecha="",hora="", observacion="";
 
     private Button mPickDateButton, mPickTimeButton;
     private TextView mShowSelectedDateText, mShowSelectedTimeText;
@@ -27,6 +34,7 @@ public class addDate1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_date1);
 
+        edtObservacion = findViewById(R.id.txtObservation);
         mPickDateButton = findViewById(R.id.btnSelectDate);
         mShowSelectedDateText = findViewById(R.id.txtDateSelected);
         mPickTimeButton = findViewById(R.id.btnSelectTime);
@@ -60,6 +68,17 @@ public class addDate1 extends AppCompatActivity {
                 showTimeDialog(mPickTimeButton);
             }
         });
+    }
+
+    public void guardar(View v) {
+        String observacion = edtObservacion.getText().toString();
+        String servicio = edtServicio.getText().toString();
+        String fecha = mShowSelectedDateText.getText().toString();
+        String hora = mShowSelectedTimeText.getText().toString();
+        // Se forma objeto persona
+        Cita cita = new Cita(servicio, fecha, hora, observacion);
+
+        lastServices.refCitas.push().setValue(cita);
     }
 
     public void back(View view){

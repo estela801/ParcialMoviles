@@ -32,16 +32,10 @@
             android:background="@drawable/border_rad"
             android:layout_marginTop="30dp">
 
-            <androidx.recyclerview.widget.RecyclerView
+            <ListView
+                android:id="@+id/ListaCitas"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:gravity="center_horizontal"
-                android:padding="20dp">
-                <!-- Se supone que aqui irian los servicios recibidos xd-->
-
-            </androidx.recyclerview.widget.RecyclerView>
-
+                android:layout_height="wrap_content" />
         </ScrollView>
 
         <com.google.android.material.button.MaterialButton
